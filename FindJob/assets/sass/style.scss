@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Nunito&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+.showcase{
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(/images/header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+    .logo{
+        h1{
+            font-size: 25px;
+            color: #fff;
+        }
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        gap: 40px;
+        li{
+            a{
+                font-size: 18px;
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+    }
+    }
+    .showcase-content{
+        margin: 50px 100px;
+        h1{
+            font-size: 50px;
+            color: #fff;
+            span{
+                color: rgb(44, 102, 229);
+            }
+        }
+    }
+}
+
+.showcase-search{
+    margin-top: -30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    .search{
+        background-color: #fff;
+        padding: 10px 10px;
+        box-shadow: rgba(2, 11, 20, 0.2) 0px 5px 15px;
+        input {
+            width: 500px;
+            padding: 10px 20px;
+            border: none;
+        }
+        button {
+            width: 110px;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            background-color:rgb(44, 102, 229);
+        }
+    }
+   .search-text{
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    select {
+        border: none;   
+        box-shadow: rgba(2, 11, 20, 0.2) 0px 5px 15px;
+        font-size: 14px;
+    }
+   }
+   .search-remote{
+    margin-left: -190px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: -10px;
+    .remote{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap:5px;
+        padding: 5px;
+        border-radius: 20px;
+        p{
+            font-size: 12px;
+            color: #fff;
+        }
+        i{
+            color: #fff;
+        }
+        background-color: rgb(44, 102, 229);
+    }
+   }
+}
+
+.cards{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    .card{
+        padding: 10px 20px;
+        display: flex;
+        box-shadow: rgba(2, 11, 20, 0.2) 0px 5px 15px;
+        flex-direction: row;
+        align-items: center;
+        gap: 40px;
+        .card-item {
+            display: flex;
+            justify-content: space-evenly;
+            gap: 20px;
+            p{
+                font-size: 13px;
+                color: #fff;
+                padding: 3px 20px;
+                border-radius: 18px;
+                &:nth-child(1){
+                    background-color: yellow;
+                }
+                &:nth-child(2){
+                    background-color: rgb(0, 94, 255);
+                }
+                &:nth-child(3){
+                    background-color:#777;
+                }
+            }
+        }
+        .card-p{
+            p{
+                font-size: 14px;
+            }
+        }
+        img{
+            width: 50px;
+        }
+        h3{
+            font-size: 14px;
+            color: rgb(0, 94, 255);
+        }
+        h1{
+            font-size: 22px;
+        }
+        p{
+            font-size: 15px;
+        }
+    }
+}
+
+.footer-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a{
+        color: #fff;
+        padding: 10px 100px;
+        border-radius: 30px;
+        background-color: rgb(0, 94, 255);
+        text-decoration: none;
+    }
+}
+
+.footer{
+    margin-top:100px;
+    width: 100%;
+    height: 30vh;
+    background-color: rgb(0, 94, 255);
+}
+
+@import 'Assets1/style.scss'

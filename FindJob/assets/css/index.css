@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&family=Nunito&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h3 {
+  font-size: 44px;
+  line-height: 55px;
+  color: #121212;
+  font-weight: 600;
+}
+
+h6 {
+  font-size: 20px;
+  line-height: 32px;
+  color: #6c6c6c;
+  margin-top: 16px;
+  font-weight: normal;
+}
+
+.showcase {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(/images/Find-header.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.showcase header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  align-items: center;
+}
+.showcase header .logo h1 {
+  font-size: 25px;
+  color: #fff;
+}
+.showcase header ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 40px;
+}
+.showcase header ul li a {
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+}
+.showcase .more h1 {
+  text-align: center;
+  color: #fff;
+  margin-top: 100px;
+}
+.showcase .more h6 {
+  color: #fff;
+  text-align: center;
+}
+.showcase .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  gap: 30px;
+}
+.showcase .btn button {
+  padding: 8px 10px;
+  border-radius: 20px;
+  background-color: blue;
+  color: #fff;
+  width: 200px;
+  height: 45px;
+  font-size: 1.3rem;
+  transition: 0.5s;
+  border: none;
+  cursor: pointer;
+}
+.showcase .btn button:hover {
+  background-color: #fff;
+  border: 1px solid blue;
+  color: blue;
+}
+
+.crafted {
+  text-align: center;
+  margin-top: 60px;
+}
+.crafted .business {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  text-align: left;
+  padding-left: 300px;
+  padding-top: 80px;
+}
+.crafted .business .code {
+  width: 300px;
+  height: 300px;
+}
+.crafted .business .code img {
+  width: 100px;
+  height: 100px;
+}
+
+.price {
+  text-align: center;
+}
+.price h1 {
+  font-size: 34px;
+}
+.price p {
+  margin-top: 20px;
+  color: #6c6c6c;
+}
+.price .container {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.price .container .card {
+  width: 300px;
+  height: 430px;
+  transition: 0.3s;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.price .container .card h1 {
+  padding: 20px 15px;
+}
+.price .container .card h2 {
+  margin-top: 10px;
+}
+.price .container .card .about {
+  margin-left: 15px;
+  text-align: left;
+}
+.price .container .card .about p {
+  border-bottom: 1px solid gray;
+  padding-bottom: 8px;
+}
+.price .container .card .btn {
+  margin-top: 10px;
+}
+.price .container .card .btn button {
+  width: 100px;
+  margin-top: 20px;
+  padding: 10px 8px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: #720bef;
+  color: #fff;
+  transition: 0.5s;
+}
+.price .container .card .btn button:hover {
+  background-color: #fff;
+  color: #720bef;
+  border: 1px solid #720bef;
+}
+.price .container .card:hover h1 {
+  background-color: #720bef;
+  color: #fff;
+}
+
+.footer {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4070f4;
+  padding: 30px;
+}
+
+.footer .container {
+  max-width: 1200px;
+}
+
+.footer .container .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+.footer .container .row .footer-col {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.footer-col p {
+  font-size: 13px;
+  color: #fff;
+}
+
+.footer-col h1 {
+  color: #fff;
+}
+
+.footer-col ul li a {
+  text-decoration: none;
+  color: rgb(187, 184, 184);
+}
+
+.footer-col ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/*# sourceMappingURL=index.css.map */
